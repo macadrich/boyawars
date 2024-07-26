@@ -8,6 +8,9 @@
 *.so
 *.dylib
 
+# vendor
+vendor
+
 # Test binary, built with `go test -c`
 *.test
 
@@ -20,3 +23,6 @@
 # Go workspace file
 go.work
 go.work.sum
+
+# macos file
+.DS_Store
